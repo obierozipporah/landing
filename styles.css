@@ -1,0 +1,602 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Commissioner", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  flex-direction: column;
+  gap: 47px;
+  padding: 100px 24px;
+}
+
+.main-heading {
+  font-size: clamp(2.5rem, 1.6197rem + 3.7559vw, 5rem);
+  line-height: 40px;
+}
+
+.med-heading {
+  font-size: clamp(2rem, 1.4718rem + 2.2535vw, 3.5rem);
+  line-height: 40px;
+}
+
+.sml-heading {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+/*----------------*/
+/*     UTILS      */
+/*----------------*/
+.bg-dark {
+  background-color: #191921;
+}
+
+.bg-pink {
+  background-color: #f94f4f;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-pink {
+  color: #f94f4f;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.step {
+  font-size: 80px;
+  line-height: 88px;
+  opacity: 0.25;
+}
+
+.extra-bold {
+  font-weight: 800;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/*---------------------*/
+/*       BUTTONS       */
+/*---------------------*/
+
+.btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+.btn-dark {
+  background-color: #191921;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+
+  height: 64px;
+  width: 170px;
+}
+
+.btn-dark:hover {
+  background-color: #434356;
+}
+
+.primary-btn {
+  background-color: #f94f4f;
+  font-size: 18px;
+  line-height: 22px;
+
+  height: 72px;
+  width: 177px;
+}
+
+.primary-btn:hover {
+  background-color: #ff9393;
+}
+
+.btn-3 {
+  border-bottom: 1px solid #f94f4f;
+  padding-bottom: 5px;
+}
+
+.btn-3:hover {
+  border-bottom: 1px solid #ff9393;
+  color: #ff9393;
+}
+
+.next-btn,
+.prev-btn {
+  cursor: pointer;
+}
+
+/*---------------------*/
+/*       NAVBAR        */
+/*---------------------*/
+.navbar {
+  padding: 40px 24px;
+}
+
+.navbar-nav-container {
+  display: none;
+}
+
+.menu-toggle {
+  border: none;
+  background-color: transparent;
+}
+
+.mobile-menu {
+  display: none;
+  background-color: #191921;
+  height: 292px;
+  width: 252px;
+  position: absolute;
+  right: 24px;
+  top: 110px;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.mobile-menu-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.show-menu {
+  display: flex;
+}
+
+.menu-link {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-link:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+/*---------------------*/
+/*       HEADING       */
+/*---------------------*/
+
+.main-bg {
+  background-image: url("./assets/mobile/image-hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 56px;
+
+  height: 200px;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 85vw;
+  margin-bottom: 96px;
+  margin-inline: auto;
+}
+
+.intro-desc {
+  margin-bottom: 25px;
+}
+
+/*---------------------*/
+/*       DESIGN        */
+/*---------------------*/
+.design-wavy {
+  width: 63px;
+  height: 29px;
+
+  position: absolute;
+  left: 8vw;
+  top: -15px;
+}
+
+.design-text {
+  flex-direction: column;
+  position: relative;
+
+  height: 377px;
+}
+
+.design-text-group {
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+  width: 85vw;
+  margin-inline: auto;
+}
+
+.design-text-group p {
+  margin-bottom: 16px;
+}
+
+.design-bg {
+  background-image: url("./assets/mobile/image-strategic.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  height: 200px;
+}
+
+/*---------------------*/
+/*      APPROACH       */
+/*---------------------*/
+
+.approach {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 5%;
+  height: 918px;
+}
+
+.step-container {
+  height: 159px;
+  position: relative;
+}
+
+.step {
+  font-size: 80px;
+  line-height: 88px;
+  opacity: 0.25;
+  margin-bottom: -50px;
+}
+
+.step-text-group {
+  padding-left: 16px;
+}
+
+/*---------------------*/
+/*      GUIDELINES     */
+/*---------------------*/
+.roadmap-bg {
+  background-image: url("./assets/mobile/image-slide-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 404px;
+
+  position: relative;
+}
+
+.roadmap-text {
+  position: absolute;
+  right: 32px;
+  bottom: 35px;
+  text-align: right;
+}
+
+.guideline-container {
+  padding: 60px 24px;
+}
+
+.guideline-group {
+  flex-direction: column;
+  gap: 24px;
+}
+
+.guideline-btns {
+  gap: 16px;
+}
+/*---------------------*/
+/*    MEDIA QUERIES    */
+/*---------------------*/
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    line-height: 56px;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .logo {
+    padding-left: 39px;
+  }
+
+  .navbar-nav-container {
+    display: flex;
+    gap: 28px;
+
+    height: 178px;
+    width: 50%;
+    min-width: 438px;
+  }
+
+  .navbar-nav {
+    gap: 20px;
+  }
+
+  .nav-link {
+    color: #fff;
+  }
+
+  .nav-link:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: underline;
+  }
+
+  .main-bg {
+    background-image: url("./assets/tablet/image-hero.jpg");
+    height: 606px;
+    width: 50%;
+    margin-left: auto;
+    margin-bottom: 0;
+  }
+
+  .intro-text {
+    width: 398px;
+    position: absolute;
+    left: 39px;
+    top: 255px;
+  }
+
+  .intro-desc {
+    margin-bottom: 32px;
+  }
+
+  .design-bg {
+    background-image: url("./assets/tablet/image-strategic.jpg");
+    height: 658px;
+    width: 50%;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+  }
+
+  .design-wavy {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .design-group {
+    min-width: 50%;
+    width: 50%;
+    height: 538px;
+    margin-left: auto;
+  }
+
+  .design-text {
+    width: 350px;
+    height: 298px;
+    position: relative;
+    top: 120px;
+    right: 40px;
+
+    flex-direction: row;
+    gap: 34px;
+  }
+
+  .design-text-group {
+    width: 300px;
+    height: 298px;
+    gap: 32px;
+  }
+
+  .approach {
+    width: 50%;
+    height: 797px;
+    margin-left: auto;
+  }
+
+  .approach h2 {
+    color: #000;
+    position: absolute;
+    left: 39px;
+
+    width: 350px;
+    height: 120px;
+  }
+
+  .roadmap-bg {
+    background-image: url("./assets/tablet/image-slide-1.jpg");
+    width: 438px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+  }
+
+  .guideline-container {
+    width: 50%;
+    height: 352px;
+  }
+
+  footer {
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .design-text {
+    width: 500px;
+    gap: 50px;
+  }
+
+  .approach {
+    height: 1110px;
+    width: 50%;
+  }
+
+  .roadmap-bg {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .main-heading {
+    line-height: 88px;
+  }
+  .med-heading {
+    line-height: 64px;
+  }
+
+  .sml-heading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .btn-dark {
+    width: 199px;
+  }
+
+  .logo {
+    padding-left: 165px;
+  }
+
+  .navbar-nav-container {
+    gap: 32px;
+  }
+
+  .navbar-nav {
+    gap: 32px;
+  }
+
+  .main-bg {
+    background-image: url("./assets/desktop/image-hero.jpg");
+    height: 800px;
+    width: 895px;
+  }
+
+  .intro-text {
+    left: 165px;
+    top: 290px;
+    width: 730px;
+    gap: 39px;
+    padding-right: 10px;
+  }
+  .intro-desc {
+    margin-bottom: 39px;
+    height: 96px;
+    width: 540px;
+  }
+
+  .design-bg {
+    background-image: url("./assets/desktop/image-strategic.jpg");
+    height: 984px;
+    width: 735px;
+  }
+
+  .design-group {
+    position: relative;
+    left: 0;
+    height: 784px;
+  }
+
+  .design-text {
+    height: 384px;
+    min-width: 666px;
+    top: 200px;
+    right: 66px;
+    gap: 60px;
+  }
+
+  .design-wavy {
+    height: 61px;
+    width: 135px;
+  }
+
+  .design-text-group {
+    height: 384px;
+    max-width: 445px;
+  }
+
+  .approach {
+    height: 1110px;
+    width: 50%;
+  }
+
+  .approach h2 {
+    left: 165px;
+    width: 600px;
+    height: 192px;
+  }
+
+  .roadmap-bg {
+    background-image: url(./assets/desktop/image-slide-1.jpg);
+    height: 728px;
+    width: 895px;
+  }
+
+  .guideline-container {
+    height: 528px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .guideline-group {
+    width: 445px;
+    height: 224px;
+  }
+
+  footer {
+    margin-top: 210px;
+  }
+}

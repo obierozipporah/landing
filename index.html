@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Creative single page site</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- start of navbar -->
+    <nav class="navbar flex items-center justify-between">
+      <div class="logo">
+        <img src="./assets/desktop/logo.svg" alt="creative logo" />
+      </div>
+      <div class="navbar-nav-container flex items-center justify-center bg-pink">
+        <ul class="navbar-nav flex">
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#" class="nav-link">Service</a></li>
+          <li><a href="#" class="nav-link">Projects</a></li>
+        </ul>
+        <button class="btn btn-dark">
+          <a href="#" class="text-white extra-bold" >Schedule a Call</a>
+        </button>
+      </div>
+      <button class="menu-toggle">
+        <img src="./assets/mobile/icon-hamburger.svg" alt="menu toggle icon" />
+      </button>
+
+      <!-- start of mobile menu -->
+      <div class="mobile-menu">
+        <ul class="mobile-menu-links">
+          <li><a href="#" class="menu-link">About</a></li>
+          <li><a href="#" class="menu-link">Services</a></li>
+          <li><a href="#" class="menu-link">Projects</a></li>
+        </ul>
+          <a href="#" class="btn primary-btn extra-bold text-white flex items-center justify-center">Schedule a Call</a>
+      </div>
+      </div>
+      <!-- end of mobile menu -->
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- start of intro section -->
+    <header>
+      <div class="section-container">
+        <div class="main-bg"></div>
+          <div class="intro-text">
+            <h1 class="main-heading extra-bold">Branding & website design agency</h1>
+            <p class="intro-desc">
+              We specialize in visual storytelling by creating cohesive brand and website design
+              solutions for small businesses, giving lasting impressions to audiences in a digital world.
+            </p>
+            <button class="btn primary-btn"><a href="#" class="text-white extra-bold">Learn more</a></button>
+          </div>
+        </div>
+    </header>
+    <!-- end of intro section -->
+    <main>
+
+      <!-- DESIGN SECTION -->
+      <section id="design">
+        <!-- positioned absolute section image will have overlap under next section -->
+        <div class="design-bg"></div>
+        <div class="bg-dark design-group">
+          <div class="design-text flex justify-center">
+            <div>
+              <img src="./assets/desktop/bg-pattern-wave-red.svg" alt="wavy red line" class="design-wavy">
+            </div>
+            <div class="design-text-group flex">
+              <h2 class="text-white med-heading extra-bold">
+                <span class="text-pink capitalize">design</span>
+                is strategic
+              </h2>
+              <p class="text-white">“A well-crafted design strategy consistently produces desired outcomes and brand awareness.
+                We are firm believers that success lies in creative collaboration with our clients.”
+              </p>
+              <a href="#" class="btn btn-3 text-pink">Schedule a Call</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- STRATEGY -->
+      <section id="strategy">
+        <div class="approach bg-pink text-white">
+          <h2 class="med-heading">Our approach for creating a winning brand</h2>
+          <div class="step-container">
+            <p class="step extra-bold">01</p>
+            <div class="step-text-group">
+              <h3 class="capitalize sml-heading extra-bold">Brand Strategy</h3>
+              <p>Brand strategy is critical for long-term success. Outshining competitors and capturing 
+                the target audience are key.
+              </p>
+            </div>
+          </div>
+          <div>
+            <p class="step extra-bold">02</p>
+            <div class="step-text-group">
+              <h3 class="capitalize sml-heading extra-bold">Brand Design</h3>
+              <p>
+                Keeping the brand design unique and meaningful helps in communicating the brand’s timeless value effectively.
+              </p>
+            </div>
+          </div>
+          <div>
+            <p class="step extra-bold">03</p>
+            <div class="step-text-group">
+              <h3 class="capitalize sml-heading extra-bold">Web Design</h3>
+              <p>
+                A beautifully crafted website is the best tool for brand awareness, and ultimately results in increased revenues. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- GUIDELINES SECTION -->
+      <section id="guideline">
+        
+      </section>
+    </main>
+    <footer class="flex justify-between">
+      <div>
+        <h2 class="extra-bold">Let's build something great together.</h2>
+      </div>
+      <button class="btn primary-btn text-white extra-bold">Schedule a Call</button>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
