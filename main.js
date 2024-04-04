@@ -50,8 +50,8 @@ guideline.innerHTML = `<div id="guideline-bg" class="roadmap-bg">
             <div class="guideline-group flex">
               <h2  id="main-title" class="text-white med-heading extra-bold"></h2>
               <div class="guideline-btns flex">
-                <img src="./assets/desktop/icon-arrow-previous.svg" alt="previous btn" class="prev-btn">
-                <img src="./assets/desktop/icon-arrow-next.svg" alt="next btn" class="next-btn">
+                <img src="./assets/Desktop/icon-arrow-previous.svg" alt="previous btn" class="prev-btn">
+                <img src="./assets/Desktop/icon-arrow-next.svg" alt="next btn" class="next-btn">
               </div>
             </div>
         </div>`;
@@ -70,7 +70,7 @@ function updateContent() {
   if (window >= 768) {
     guidelineBg.style.backgroundImage = `url(./assets/tablet/image-${content[baseIndex].slide}.jpg)`;
   } else if (window >= 1200) {
-    guidelineBg.style.backgroundImage = `url(./assets/desktop/image-${content[baseIndex].slide}.jpg)`;
+    guidelineBg.style.backgroundImage = `url(./assets/Desktop/image-${content[baseIndex].slide}.jpg)`;
   }
 }
 

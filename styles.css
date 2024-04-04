@@ -502,7 +502,7 @@ footer {
   }
 
   .main-bg {
-    background-image: url("./assets/desktop/image-hero.jpg");
+    background-image: url("./assets/Desktop/image-hero.jpg");
     height: 800px;
     width: 895px;
   }
@@ -521,7 +521,7 @@ footer {
   }
 
   .design-bg {
-    background-image: url("./assets/desktop/image-strategic.jpg");
+    background-image: url("./assets/Desktop/image-strategic.jpg");
     height: 984px;
     width: 735px;
   }
@@ -562,7 +562,7 @@ footer {
   }
 
   .roadmap-bg {
-    background-image: url(./assets/desktop/image-slide-1.jpg);
+    background-image: url(./assets/Desktop/image-slide-1.jpg);
     height: 728px;
     width: 895px;
   }
