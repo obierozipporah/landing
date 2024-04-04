@@ -46,9 +46,6 @@ footer {
   line-height: 25px;
 }
 
-/*----------------*/
-/*     UTILS      */
-/*----------------*/
 .bg-dark {
   background-color: #191921;
 }
@@ -95,9 +92,6 @@ footer {
   justify-content: space-between;
 }
 
-/*---------------------*/
-/*       BUTTONS       */
-/*---------------------*/
 
 .btn {
   background: transparent;
@@ -148,9 +142,6 @@ footer {
   cursor: pointer;
 }
 
-/*---------------------*/
-/*       NAVBAR        */
-/*---------------------*/
 .navbar {
   padding: 40px 24px;
 }
@@ -202,9 +193,6 @@ footer {
   text-decoration: underline;
 }
 
-/*---------------------*/
-/*       HEADING       */
-/*---------------------*/
 
 .main-bg {
   background-image: url("./assets/mobile/image-hero.jpg");
@@ -229,9 +217,7 @@ footer {
   margin-bottom: 25px;
 }
 
-/*---------------------*/
-/*       DESIGN        */
-/*---------------------*/
+
 .design-wavy {
   width: 63px;
   height: 29px;
@@ -269,9 +255,6 @@ footer {
   height: 200px;
 }
 
-/*---------------------*/
-/*      APPROACH       */
-/*---------------------*/
 
 .approach {
   display: flex;

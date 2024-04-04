@@ -2,7 +2,6 @@ const toggleBtn = document.querySelector(".menu-toggle");
 const mobileMenu = document.querySelector(".mobile-menu");
 const toggleBtnIcon = document.querySelector(".menu-toggle img");
 
-//change mobile menu icon when mobile menu is active
 toggleBtn.addEventListener("click", () => {
   mobileMenu.classList.toggle("show-menu");
   if (mobileMenu.classList.contains("show-menu")) {
@@ -12,7 +11,6 @@ toggleBtn.addEventListener("click", () => {
   }
 });
 
-//close mobile menu when resizing screen
 window.addEventListener("resize", () => {
   if (this.window.innerWidth >= 768) {
     mobileMenu.classList.remove("show-menu");
@@ -20,7 +18,6 @@ window.addEventListener("resize", () => {
   }
 });
 
-//object of usable content
 const content = [
   {
     slide: "slide-1",
